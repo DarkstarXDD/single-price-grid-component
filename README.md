@@ -10,8 +10,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 
 ### Links
-- Live Site URL: 
-- Solution URL: 
+- Live Site URL: https://single-price-grid-component-darkstarxdd.vercel.app/
+- Solution URL: https://www.frontendmentor.io/solutions/single-price-grid-component-j3V4R66xnd
 #
 
 
