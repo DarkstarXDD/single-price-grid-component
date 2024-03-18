@@ -1,77 +1,81 @@
 <!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Darkstar" />
+    <meta
+      name="description"
+      content="Darkstar's solution for the Single Price Grid Component challenge on frontendmentor.io"
+    />
 
-  <html lang="en">
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://single-price-grid-component-darkstarxdd.vercel.app/"
+    />
+    <meta
+      property="og:title"
+      content="Single Price Grid Component - Frontend Mentor"
+    />
+    <meta
+      property="og:description"
+      content="Darkstar's solution for the Single Price Grid Component challenge on frontendmentor.io"
+    />
+    <meta
+      property="og:image"
+      content="https://single-price-grid-component-darkstarxdd.vercel.app/images/screenshot_desktop.jpeg"
+    />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1440" />
+    <meta property="og:image:height" content="800" />
 
-    <head>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Single Price Grid Component</title>
+  </head>
 
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <body>
+    <main class="container">
+      <div class="section section--join">
+        <h1 class="heading">Join our community</h1>
+        <h2 class="section__title section__title--join">
+          30-day, hassle-free money back guarantee
+        </h2>
+        <p class="text--join">
+          Gain access to our full library of tutorials along with expert code
+          reviews. Perfect for any developers who are serious about honing their
+          skills.
+        </p>
+      </div>
 
-      <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-      
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
+      <div class="section section--price">
+        <h2 class="section__title">Monthly Subscription</h2>
+        <p class="price">
+          <span class="price__digit">$29</span>
+          <span class="price__text">per month</span>
+        </p>
+        <p class="text--price">Full access for less than $1 a day</p>
+        <a class="button" href="#">Sign Up</a>
+      </div>
 
-      <link rel="stylesheet" href="styles.css">
-  
-      <title>Frontend Mentor | Single Price Grid Component</title>
-
-    </head>
-
-
-    <body>
-      
-      <main class="container">
-
-        <div class="item item-1">
-
-          <h1>Join our community</h1>
-
-          <h2>30-day, hassle-free money back guarantee</h2>
-
-          <p>
-            Gain access to our full library of tutorials along with expert code reviews. 
-            Perfect for any developers who are serious about honing their skills.
-          </p>
-
-        </div>
-
-
-        <div class="item item-2">
-
-          <h2>Monthly Subscription</h2>
-
-          <p class="price">
-            <span id="price-digit">$29</span>
-            <span id="price-text">per month</span>
-          </p>
-
-          <p>Full access for less than $1 a day</p>
-
-          <a class="button" href="#">Sign Up</a>
-
-        </div>
-
-        
-        <div class="item item-3">
-
-          <h2>Why Us</h2>
-
-          <ul>
-            <li>Tutorials by industry experts</li>
-            <li>Peer & expert code review</li>
-            <li>Coding exercises</li>
-            <li>Access to our GitHub repos</li>
-            <li>Community forum</li>
-            <li>Flashcard decks</li>
-            <li>New videos every week</li>
-          </ul>
-
-        </div>
-
-      </main>
-
-    </body>
-
+      <div class="section section--benefits">
+        <h2 class="section__title">Why Us</h2>
+        <ul class="benefits">
+          <li class="benefit">Tutorials by industry experts</li>
+          <li class="benefit">Peer & expert code review</li>
+          <li class="benefit">Coding exercises</li>
+          <li class="benefit">Access to our GitHub repos</li>
+          <li class="benefit">Community forum</li>
+          <li class="benefit">Flashcard decks</li>
+          <li class="benefit">New videos every week</li>
+        </ul>
+      </div>
+    </main>
+  </body>
 </html>
